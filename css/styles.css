@@ -113,6 +113,11 @@ nav a:hover {
   transition: all .3s;
 }
 
+a:hover {
+  color: #1c61aa;
+  transition: all .3s;
+}
+
 
 /* CLASS STYLES */
 
@@ -132,11 +137,13 @@ nav a:hover {
 .padding-general {
   padding-left: 20px;
   padding-right: 20px;
+  margin:0 auto;
 }
 
 .portfolio-wrapper {
   background-color:rgb(255, 255, 255);
   padding-bottom: 60px;
+  margin:0 auto;
 }
 
 .contact {
@@ -176,13 +183,19 @@ nav a:hover {
 
   header p {
     font-size: 1.1em;
+    padding:0;
   }
 
   .profile-image {
     float:right;
     width:40%;
     padding-left:15px;
-    padding-top:15px;
+    padding-top:25px;
+  }
+
+  .main-header {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   .main-header p {
@@ -191,8 +204,12 @@ nav a:hover {
 
   .col {
     width: 50%;
-    padding:5px;
-    float:left;
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: -4px;
+    vertical-align: top;
+    padding: 0 7px;
+
   }
 
   .contact p {
@@ -207,6 +224,7 @@ nav a:hover {
 
   .portfolio-wrapper {
     padding-bottom: 10px;
+    margin:0 auto;
   }
 
   .back-to-top {
@@ -239,6 +257,79 @@ nav a:hover {
 
   #contact-para {
     margin-bottom: 30px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+
+  .col {
+    width:33.3%;
+
+    float:left;
+    margin:0 auto;
+  }
+
+  nav {
+    float:right;
+  }
+  nav a,
+  nav li {
+    padding: 13px 0 0 10px;
+    margin-right: 0;
+    font-size: .95em;
+  }
+
+  h1 {
+    float:left;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .main-header {
+    padding-top: 20px;
+  }
+
+  .main-wrapper {
+    padding:0 25px;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    padding-left: 20px;
+  }
+
+  nav a:hover {
+    background-color: transparent;
+  }
+
+  .bottom-nav {
+    padding-bottom: 25px;
+  }
+
+  .bottom-nav ul,
+  .bottom-nav a,
+  .bottom-nav li {
+    margin-bottom:0;
+    padding-right: 0;
+    margin-right:0;
+  }
+
+  .footer-para {
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+  .main-footer {
+    padding-left:27px;
+    padding-right:27px;
+  }
+
+  .main-footer p {
+    width: 60%;
   }
 
 }
