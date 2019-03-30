@@ -118,6 +118,13 @@ a:hover {
   transition: all .3s;
 }
 
+.skills-list span:hover {
+  color: #1c61aa;
+  background-color:#fff245;
+  font-weight:500;
+  transition: all .3s;
+}
+
 
 /* CLASS STYLES */
 
@@ -157,6 +164,35 @@ a:hover {
 .footer-para {
   padding:25px 0 15px;
   border-top: 1px solid rgba(214, 214, 214, .5);
+}
+
+.skills-list span {
+  background-color:#1c61aa;
+  padding: 10px 0;
+  margin: 5px;
+  width:40%;
+  display:inline-block;
+  border-radius: 10px;
+  min-width: 150px;
+
+}
+
+.skills-list li {
+  color:white;
+}
+
+#skills {
+  border-top:1px solid rgba(214, 214, 214, .5);
+  margin-top:0px;
+}
+
+#skills h2 {
+  padding-top:50px;
+  clear:both;
+}
+
+.calculator-section p {
+  margin-bottom:0px;
 }
 
 /* Clearfix */
@@ -209,7 +245,26 @@ a:hover {
     margin-right: -4px;
     vertical-align: top;
     padding: 0 7px;
+  }
 
+  .skills-list ul {
+    width:70%;
+    margin:auto auto 50px;
+    text-align: center;
+  }
+  .skills-list span {
+    width: 90%;
+  }
+  .skills-list li {
+    float:left;
+    display: inline;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    width:50%;
+  }
+  #skills {
+    border-top:1px solid rgba(214, 214, 214, .5);
+    margin-top:0px;
   }
 
   .contact p {
@@ -331,5 +386,18 @@ a:hover {
   .main-footer p {
     width: 60%;
   }
+
+  .skills-list li {
+    float:left;
+    display: inline;
+    width:33.3%;
+  }
+
+  #skills {
+    border-top:1px solid rgba(214, 214, 214, .5);
+    margin-top:0px;
+    clear:both;
+  }
+
 
 }
