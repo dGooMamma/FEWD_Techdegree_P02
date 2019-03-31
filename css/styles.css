@@ -195,6 +195,20 @@ a:hover {
   margin-bottom:0px;
 }
 
+.footer-nav {
+  font-size:.95em;
+}
+
+.footer-nav a {
+  margin-top:0;
+  padding-top:0;
+}
+
+.footer-nav li {
+  margin-top:0;
+  padding-top:0;
+}
+
 /* Clearfix */
 
 .clearfix::after {
@@ -307,6 +321,19 @@ a:hover {
   .bottom-nav {
     padding:25px 0 60px;
     border-top: 1px solid rgba(214, 214, 214, .5);
+  }
+
+  .footer-nav a {
+    padding-right: 0;
+  }
+
+  .footer-nav li {
+    padding-right: 0;
+    margin-right:0;
+  }
+
+  .footer-nav a:hover {
+    background-color: transparent;
   }
 
 
